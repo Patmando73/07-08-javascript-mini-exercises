@@ -15,3 +15,10 @@ function hide_popup() {
 
 document.getElementById("sign_in_button").onclick = show_popup;
 document.getElementById("close_x").onclick = hide_popup;
+
+document.getElementById("header").clientHeight(pageYOffset = 350);
+
+
+if (window.pageXOffset >350) {
+
+}

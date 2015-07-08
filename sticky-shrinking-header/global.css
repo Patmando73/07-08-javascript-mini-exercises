@@ -48,4 +48,5 @@ body {
   position: absolute;
   top: 15%;
   left: 2%;
+  visibility: hidden;
 }
