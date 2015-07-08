@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.info_template {
+    position: absolute;
+    padding: 12px;
+    width: 100%;
+}
+
+
+#frame {
+    text-align: center;
+    margin: 10%;
+}
+
+.tab_template {
+    width: 20%;
+    float: left;
+    border: 1px solid gray;
+    background-color: white;
+    border-bottom: none;
+
+}
+
+#content {
+    position: relative;
+    height: 300px;
+    border: 1px solid gray;
+    overflow: auto;
+}
+
+#tab1_info {
+    background-color: white;
+}
+
+#tab2_info {
+    background-color: white;
+
+}
+
+#tab3_info {
+
+    background-color: white;
+
+}
+
+.button_template {
+    width: 100%;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+#tab2 {
+    border-left: none;
+}
+
+
+#tab3 {
+    border-left: none;
+}
