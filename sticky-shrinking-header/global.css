@@ -5,3 +5,47 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+
+}
+
+#cool {
+  width: 200px;
+  position: absolute;
+  top: 24%;
+}
+
+#content p {
+  line-height: 40px;
+  font-size: 24px;
+}
+
+#header {
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  background-color: blueviolet;
+  top: 0;
+  z-index: 1;
+}
+
+#content {
+  position: relative;
+  top: 150px;
+}
+
+#header_text {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 42%;
+}
+
+#cool2 {
+  width: 100px;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+}
